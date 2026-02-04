@@ -6,10 +6,11 @@ import ru.hse.lab1.second.Person;
  * @since 2026
  */
 
-public class Hello {
+public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
-
-
+        
+        Person person = new Person("Oleg", 18);
+        System.out.println(person.name);
+        System.out.println(person.age);
     }
 }
